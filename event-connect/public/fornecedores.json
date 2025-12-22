@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nome": "Buffet Delícia Real", "categoria": "alimentacao", "preco": 5200 },
+  { "id": 2, "nome": "DJ Thunder", "categoria": "musica", "preco": 1500 },
+  { "id": 3, "nome": "Equipe Eagle Security", "categoria": "seguranca", "preco": 900 },
+  { "id": 4, "nome": "Barman & Drinks", "categoria": "alimentacao", "preco": 2100 },
+  { "id": 5, "nome": "Banda The Classics", "categoria": "musica", "preco": 3800 },
+  { "id": 6, "nome": "Decoração Floral", "categoria": "decoracao", "preco": 4500 }
+]

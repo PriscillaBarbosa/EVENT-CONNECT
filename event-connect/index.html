@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventConnect - Gestão de Eventos</title>
+  </head>
+  <body>
+    <header>
+      <h1>EventConnect 🚀</h1>
+      <p>Painel de Contratação de Fornecedores</p>
+    </header>
+
+    <div class="dashboard-container">
+      <main>
+        <div class="filtros" id="container-filtros">
+          <span>Filtrar por: </span>
+          <button data-categoria="todos" class="ativo">Todos</button>
+          <button data-categoria="alimentacao">Alimentação</button>
+          <button data-categoria="musica">Música</button>
+          <button data-categoria="seguranca">Segurança</button>
+        </div>
+
+        <div id="lista-fornecedores">
+          <p>Carregando dados...</p>
+        </div>
+      </main>
+
+      <aside class="painel-orcamento">
+        <h3>Resumo do Evento</h3>
+        <p>Itens contratados: <span id="qtd-itens">0</span></p>
+        <hr />
+        <p>Total Estimado:</p>
+        <div id="valor-total" class="total-display">R$ 0,00</div>
+      </aside>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
